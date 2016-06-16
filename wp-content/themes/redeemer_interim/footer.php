@@ -1,28 +1,45 @@
-			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
-				<div id="inner-footer" class="wrap cf">
-
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
+			<div class="container-fluid">
+				<ul class="row social">
+					<li>
+						<a href="" target="_blank">
+							<span class="icon icon-twitter"></span>
+						</a>
+						<a href="" target="_blank">
+							<span class="icon icon-facebook"></span>
+						</a>
+						<a href="" target="_blank">
+							<span class="icon icon-instagram"></span>
+						</a>
+						<!--<a href="{{site.meta['email-campaign']}}" target="_blank">
+							<span class="icon icon-email"></span>
+						</a> -->
+					</li>
+				</ul>
+				<footer class="row footer">
+					<div class="col col-xs-12 col-sm-6">
+						<h3>Our Location</h3>
+						<address>
+						3210 SE Taylor St.<br>
+						Portland, OR 97214<br/>
+						<a href="https://www.google.com/maps/place/Redeemer+Church/@45.514762,-122.632118,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a09158db3627:0x7de899755aaef07b">(Map)</a>
+						</address>
+					</div>
+					<div class="col col-xs-12 col-sm-6">
+						<h3>Service Times</h3>
+						<p>
+						Sunday: 9:00 AM<br/>
+						Sunday: 11:15 AM<br/>
+						Child care provided
+						</p>
+					</div>
+				</footer>
+				<div class="row copyright">
+					<p>
+						&copy; 2015. Redeemer Church. All Rights Reserved.
+					</p>
 				</div>
+			</div>
 
-			</footer>
 
 		</div>
 

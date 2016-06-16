@@ -44,15 +44,15 @@
 
 		<div id="container">
 
-			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader" style="background-image:url(<?php echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0]; ?>);">
 
-				<div id="inner-header" class="wrap cf">
+				<div class="inner">
 
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
+					<h1 class="site-title">
+						<a href="<?php echo site_url(); ?>">
+							<span class="icon icon-logo"></span>
+						</a>
+					</h1><!-- /site-title -->
 
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -60,7 +60,7 @@
     					         'container' => false,                           // remove nav container
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
     					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
+    					         'menu_class' => 'main-menu top-nav cf',               // adding custom nav class
     					         'theme_location' => 'main-nav',                 // where it's located in the theme
     					         'before' => '',                                 // before the menu
         			               'after' => '',                                  // after the menu
@@ -71,7 +71,13 @@
 						)); ?>
 
 					</nav>
+					
+					<hr>
+					
+					<h2 class="headline">
+						<?php echo get_field('masthead_title'); ?>
+					</h2>
 
 				</div>
-
+				
 			</header>

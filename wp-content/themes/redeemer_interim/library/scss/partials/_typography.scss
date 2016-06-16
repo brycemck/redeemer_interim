@@ -47,6 +47,80 @@ https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-Book-Pro.otf');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-BookItalic-Pro.otf');
+      font-weight: normal;
+      font-style: italic;
+}
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-Light-Pro.otf');
+      font-weight: light;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-LightItalic-Pro.otf');
+      font-weight: light;
+      font-style: italic;
+}
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-Bold-Pro.otf');
+      font-weight: bold;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Surveyor Text A';
+      src: url('../fonts/HCo_SurveyorText_Pro/OpenType/SurveyorText-BoldItalic-Pro.otf');
+      font-weight: bold;
+      font-style: italic;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-Book.otf');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-BookItalic.otf');
+      font-weight: normal;
+      font-style: italic;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-Light.otf');
+      font-weight: light;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-LightItalic.otf');
+      font-weight: light;
+      font-style: italic;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-Bold.otf');
+      font-weight: bold;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Gotham A';
+      src: url('../fonts/HCo_Gotham_Bundle/OpenType/Gotham-BoldItalic.otf');
+      font-weight: bold;
+      font-style: italic;
+}
+
+
 
 // font stacks
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;

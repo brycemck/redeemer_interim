@@ -23,6 +23,8 @@ our mixins, functions, and variables that we'll be using across
 the whole project.
 *********************/
 
+@import "bootstrap";
+
 // normalize: http://necolas.github.io/normalize.css/
 @import "partials/normalize";
 
@@ -40,6 +42,9 @@ the whole project.
 
 // the grid
 @import "partials/grid";
+
+// icons
+@import "partials/icons";
 
 /*********************
 IMPORTING MODULES
