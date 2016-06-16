@@ -3072,7 +3072,7 @@ body {
   font-family: "Gotham A";
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
+  color: #111111;
   background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3130,7 +3130,7 @@ style a page via class
 
 /* line 87, ../scss/breakpoints/_base.scss */
 .header .inner {
-  padding: 1.5rem 0;
+  padding: 0 0 0.2rem;
   background: rgba(17, 17, 17, 0.5);
 }
 
@@ -3190,7 +3190,7 @@ hr {
 }
 
 /* line 150, ../scss/breakpoints/_base.scss */
-.main-menu li.active a {
+.main-menu li.current-menu-item a {
   background: #ffffff;
   color: #111111;
 }
@@ -3297,22 +3297,65 @@ hr {
   line-height: 1.4;
 }
 
-/* line 274, ../scss/breakpoints/_base.scss */
-.blockquote-verse {
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
+/* line 269, ../scss/breakpoints/_base.scss */
+p.body-content {
+  font-family: "Gotham A";
+  font-size: 1.4rem;
 }
 
-/* line 279, ../scss/breakpoints/_base.scss */
-.verse {
-  font-size: 1.6rem;
-  line-height: 1.4;
+/* line 273, ../scss/breakpoints/_base.scss */
+.entry-content {
+  margin: 3rem 0;
+}
+/* line 276, ../scss/breakpoints/_base.scss */
+.entry-content h2 {
+  font-family: "Surveyor Text A";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.8rem;
 }
 
 /* line 283, ../scss/breakpoints/_base.scss */
+.body-content a {
+  color: #6e797d;
+  text-decoration: none;
+}
+/* line 287, ../scss/breakpoints/_base.scss */
+.body-content a:hover {
+  color: #4a5254;
+}
+
+/* line 301, ../scss/breakpoints/_base.scss */
+.blockquote-verse {
+  text-align: center;
+  width: 50%;
+  margin: 5rem auto;
+  font-size: 1.6rem;
+}
+
+/* line 307, ../scss/breakpoints/_base.scss */
+.verse {
+  line-height: 1.4;
+  font-family: "Surveyor Text A";
+  font-weight: normal;
+  font-style: italic;
+  color: #959fa2;
+}
+
+/* line 314, ../scss/breakpoints/_base.scss */
 .verse-reference {
+  position: relative;
   text-transform: uppercase;
+  font-family: "Gotham A";
+  font-weight: bold;
+  color: #6e797d;
+  top: 1rem;
+}
+
+/* line 325, ../scss/breakpoints/_base.scss */
+.google-maps {
+  position: relative;
+  height: 500px;
 }
 
 /*********************

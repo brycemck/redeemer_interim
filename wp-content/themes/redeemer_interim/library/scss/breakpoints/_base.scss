@@ -19,7 +19,7 @@ body {
 	font-family: $font-family-sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
-	color: $text-color;
+	color: $black;
 	background-color: white;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
@@ -85,7 +85,7 @@ style a page via class
 }
 
 .header .inner {
-  padding: 1.5rem 0;
+  padding: 0 0 0.2rem;
   background: transparentize($black, .5);
 }
 
@@ -147,7 +147,7 @@ hr {
   text-decoration: none;
 }
 
-.main-menu li.active a {
+.main-menu li.current-menu-item a {
   background: $white;
   color: $black;
 }
@@ -261,6 +261,33 @@ hr {
   line-height: 1.4;
 }
 
+// ================================================
+// GLOBAL STYLES
+// - global styles
+// ================================================
+
+p.body-content {
+	font-family: $font-family-sans-serif;
+	font-size: 1.4rem;
+}
+.entry-content {
+	margin: 3rem 0;
+	
+	h2 {
+		font-family: $font-family-serif;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.8rem;
+	}
+}
+.body-content a {
+	color: $brand-slate;
+	text-decoration: none;
+
+	&:hover {
+		color: darken($brand-slate, 15%);
+	}
+}
 
 // ================================================
 // PAGE SPECIFIC STYLES
@@ -274,12 +301,28 @@ hr {
 .blockquote-verse {
 	text-align: center;
 	width: 50%;
-	margin: 0 auto;
+	margin: 5rem auto;
+	font-size: 1.6rem;
 }
 .verse {
-	font-size: 1.6rem;
 	line-height: 1.4;
+	font-family: $font-family-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: lighten($brand-slate, 15%);
 }
 .verse-reference {
+	position: relative;
 	text-transform: uppercase;
+	font-family: $font-family-sans-serif;
+	font-weight: bold;
+	color: $brand-slate;
+	top: 1rem;
+}
+
+// Connecting Page
+// ------------------------------------------------
+.google-maps {
+	position: relative;
+	height: 500px;
 }
