@@ -35,7 +35,7 @@
 				</footer>
 				<div class="row copyright">
 					<p>
-						&copy; 2015. Redeemer Church. All Rights Reserved.
+						&copy; 2016. Redeemer Church. All Rights Reserved.
 					</p>
 				</div>
 			</div>

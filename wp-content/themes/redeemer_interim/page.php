@@ -2,7 +2,7 @@
 
 			<div id="content">
 
-				<div id="inner-content" class="">
+				<div id="inner-content" class="container">
 
 						<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 

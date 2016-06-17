@@ -3169,9 +3169,10 @@ hr {
   padding-left: 0;
   list-style: none;
   text-align: center;
+  padding: initial !important;
 }
 
-/* line 134, ../scss/breakpoints/_base.scss */
+/* line 135, ../scss/breakpoints/_base.scss */
 .main-menu li {
   display: inline;
   margin: 2.5rem 0;
@@ -3181,7 +3182,7 @@ hr {
   text-transform: uppercase;
 }
 
-/* line 143, ../scss/breakpoints/_base.scss */
+/* line 144, ../scss/breakpoints/_base.scss */
 .main-menu li a {
   display: inline-block;
   padding: .5rem 1rem;
@@ -3189,7 +3190,7 @@ hr {
   text-decoration: none;
 }
 
-/* line 150, ../scss/breakpoints/_base.scss */
+/* line 151, ../scss/breakpoints/_base.scss */
 .main-menu li.current-menu-item a {
   background: #ffffff;
   color: #111111;
@@ -3215,52 +3216,52 @@ hr {
   content: "";
 }
 
-/* line 182, ../scss/breakpoints/_base.scss */
+/* line 183, ../scss/breakpoints/_base.scss */
 .social {
   margin-bottom: 0;
-  padding: 2rem 0;
+  padding: 2rem 0 !important;
   font-size: 1.8rem;
   text-align: center;
   list-style: none;
   background: #889296;
 }
 
-/* line 191, ../scss/breakpoints/_base.scss */
+/* line 192, ../scss/breakpoints/_base.scss */
 .social li {
   display: inline;
   list-style-type: none;
 }
 
-/* line 196, ../scss/breakpoints/_base.scss */
+/* line 197, ../scss/breakpoints/_base.scss */
 .social li a {
   display: inline-block;
   margin: 0 1rem;
   color: #bec4c6;
 }
-/* line 201, ../scss/breakpoints/_base.scss */
+/* line 202, ../scss/breakpoints/_base.scss */
 .social li a:hover {
   color: #565f62;
 }
 
-/* line 210, ../scss/breakpoints/_base.scss */
+/* line 211, ../scss/breakpoints/_base.scss */
 .footer {
   padding: 3rem 0 0 0;
   background: #6e797d;
 }
 
-/* line 216, ../scss/breakpoints/_base.scss */
+/* line 217, ../scss/breakpoints/_base.scss */
 .footer div {
   margin-bottom: 2rem;
   text-align: center;
 }
 
-/* line 222, ../scss/breakpoints/_base.scss */
+/* line 223, ../scss/breakpoints/_base.scss */
 .footer a {
   color: #323739;
   border-bottom: 2px solid #565f62;
 }
 
-/* line 227, ../scss/breakpoints/_base.scss */
+/* line 228, ../scss/breakpoints/_base.scss */
 .footer h3 {
   color: #d9ddde;
   font-size: 1rem;
@@ -3268,7 +3269,7 @@ hr {
   text-transform: uppercase;
 }
 
-/* line 234, ../scss/breakpoints/_base.scss */
+/* line 235, ../scss/breakpoints/_base.scss */
 .footer address,
 .footer p {
   color: #323739;
@@ -3279,7 +3280,7 @@ hr {
   line-height: 1.4;
 }
 
-/* line 248, ../scss/breakpoints/_base.scss */
+/* line 249, ../scss/breakpoints/_base.scss */
 .copyright {
   padding: 1.5rem 0;
   color: #b1b7ba;
@@ -3290,24 +3291,24 @@ hr {
   background: #697478;
 }
 
-/* line 258, ../scss/breakpoints/_base.scss */
+/* line 259, ../scss/breakpoints/_base.scss */
 .copyright p {
   margin: 0;
   font-size: 1rem;
   line-height: 1.4;
 }
 
-/* line 269, ../scss/breakpoints/_base.scss */
+/* line 270, ../scss/breakpoints/_base.scss */
 p.body-content {
   font-family: "Gotham A";
   font-size: 1.4rem;
 }
 
-/* line 273, ../scss/breakpoints/_base.scss */
+/* line 274, ../scss/breakpoints/_base.scss */
 .entry-content {
   margin: 3rem 0;
 }
-/* line 276, ../scss/breakpoints/_base.scss */
+/* line 277, ../scss/breakpoints/_base.scss */
 .entry-content h2 {
   font-family: "Surveyor Text A";
   font-weight: bold;
@@ -3315,25 +3316,84 @@ p.body-content {
   font-size: 1.8rem;
 }
 
-/* line 283, ../scss/breakpoints/_base.scss */
+/* line 284, ../scss/breakpoints/_base.scss */
 .body-content a {
   color: #6e797d;
   text-decoration: none;
 }
-/* line 287, ../scss/breakpoints/_base.scss */
+/* line 288, ../scss/breakpoints/_base.scss */
 .body-content a:hover {
   color: #4a5254;
 }
 
-/* line 301, ../scss/breakpoints/_base.scss */
+/* line 292, ../scss/breakpoints/_base.scss */
+.subpage-menu {
+  text-align: left;
+  list-style: none;
+  margin-top: 3.25rem;
+}
+
+/* line 298, ../scss/breakpoints/_base.scss */
+.subpage-menu h3 {
+  margin-top: 1.8rem;
+  color: #6e797d;
+  font-family: "Gotham A";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+  margin-left: 7px;
+}
+
+/* line 311, ../scss/breakpoints/_base.scss */
+.subpage-menu li {
+  display: block;
+  list-style-type: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* line 317, ../scss/breakpoints/_base.scss */
+.subpage-menu li:after {
+  content: '';
+  display: block;
+  width: 200%;
+}
+
+/* line 324, ../scss/breakpoints/_base.scss */
+.subpage-menu li a {
+  display: inline-block;
+  color: #959fa2;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: .5rem;
+}
+/* line 331, ../scss/breakpoints/_base.scss */
+.subpage-menu li a:hover {
+  color: #4a5254;
+}
+
+/* line 336, ../scss/breakpoints/_base.scss */
+.subpage-menu li.current-menu-item a {
+  color: #7a868a;
+  background: #e7e9ea;
+}
+
+/* line 350, ../scss/breakpoints/_base.scss */
+.verseContainer {
+  position: relative;
+  text-align: center;
+}
+
+/* line 354, ../scss/breakpoints/_base.scss */
 .blockquote-verse {
   text-align: center;
-  width: 50%;
-  margin: 5rem auto;
+  margin: 2rem auto;
   font-size: 1.6rem;
 }
 
-/* line 307, ../scss/breakpoints/_base.scss */
+/* line 359, ../scss/breakpoints/_base.scss */
 .verse {
   line-height: 1.4;
   font-family: "Surveyor Text A";
@@ -3342,7 +3402,7 @@ p.body-content {
   color: #959fa2;
 }
 
-/* line 314, ../scss/breakpoints/_base.scss */
+/* line 366, ../scss/breakpoints/_base.scss */
 .verse-reference {
   position: relative;
   text-transform: uppercase;
@@ -3352,10 +3412,32 @@ p.body-content {
   top: 1rem;
 }
 
-/* line 325, ../scss/breakpoints/_base.scss */
+/* line 377, ../scss/breakpoints/_base.scss */
 .google-maps {
   position: relative;
   height: 500px;
+}
+
+/* line 384, ../scss/breakpoints/_base.scss */
+.page-template-page-about ul {
+  list-style-type: initial;
+  padding: 0 0 0 3rem;
+}
+
+/* line 388, ../scss/breakpoints/_base.scss */
+.subpage-menu ul {
+  padding: 0;
+}
+
+/* line 394, ../scss/breakpoints/_base.scss */
+.page-template-page-caring ul {
+  list-style-type: initial;
+  padding: 0 0 0 3rem;
+}
+
+/* line 398, ../scss/breakpoints/_base.scss */
+.subpage-menu ul {
+  padding: 0;
 }
 
 /*********************
@@ -3474,163 +3556,10 @@ you can add resource intensive styles.
   come into play. Have fun!
   
   ******************************************************************/
-  /*********************
-  GENERAL STYLES
-  *********************/
-  /*********************
-  LAYOUT & GRID STYLES
-  *********************/
-  /* line 26, ../scss/breakpoints/_768up.scss */
-  .wrap {
-    width: 760px;
+  /* line 16, ../scss/breakpoints/_768up.scss */
+  .blockquote-verse {
+    margin: 5rem auto;
   }
-
-  /*********************
-  HEADER STYLES
-  *********************/
-  /*********************
-  NAVIGATION STYLES
-  *********************/
-  /* line 42, ../scss/breakpoints/_768up.scss */
-  .nav {
-    border: 0;
-    /* end .menu ul li */
-    /* highlight current page */
-    /* end current highlighters */
-  }
-  /* line 44, ../scss/breakpoints/_768up.scss */
-  .nav ul {
-    background: #111111;
-    margin-top: 0;
-  }
-  /* line 48, ../scss/breakpoints/_768up.scss */
-  .nav li {
-    float: left;
-    position: relative;
-    /*
-    plan your menus and drop-downs wisely.
-    */
-    /* showing sub-menus */
-  }
-  /* line 52, ../scss/breakpoints/_768up.scss */
-  .nav li a {
-    border-bottom: 0;
-    /*
-    you can use hover styles here even though this size
-    has the possibility of being a mobile device.
-    */
-  }
-  /* line 59, ../scss/breakpoints/_768up.scss */
-  .nav li a:hover, .nav li a:focus {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  /* line 71, ../scss/breakpoints/_768up.scss */
-  .nav li ul.sub-menu,
-  .nav li ul.children {
-    margin-top: 0;
-    border: 1px solid #ccc;
-    border-top: 0;
-    position: absolute;
-    visibility: hidden;
-    z-index: 8999;
-    /* highlight sub-menu current page */
-  }
-  /* line 80, ../scss/breakpoints/_768up.scss */
-  .nav li ul.sub-menu li,
-  .nav li ul.children li {
-    /*
-    if you need to go deeper, go nuts
-    just remember deeper menus suck
-    for usability. k, bai.
-    */
-  }
-  /* line 82, ../scss/breakpoints/_768up.scss */
-  .nav li ul.sub-menu li a,
-  .nav li ul.children li a {
-    padding-left: 10px;
-    border-right: 0;
-    display: block;
-    width: 180px;
-    border-bottom: 1px solid #ccc;
-  }
-  /* line 99, ../scss/breakpoints/_768up.scss */
-  .nav li ul.sub-menu li:last-child a,
-  .nav li ul.children li:last-child a {
-    border-bottom: 0;
-  }
-  /* line 109, ../scss/breakpoints/_768up.scss */
-  .nav li ul.sub-menu li ul,
-  .nav li ul.children li ul {
-    top: 0;
-    left: 100%;
-  }
-  /* line 124, ../scss/breakpoints/_768up.scss */
-  .nav li:hover > ul {
-    top: auto;
-    visibility: visible;
-  }
-
-  /* end .nav */
-  /*********************
-  SIDEBARS & ASIDES
-  *********************/
-  /* line 144, ../scss/breakpoints/_768up.scss */
-  .sidebar {
-    margin-top: 2.2em;
-  }
-
-  /* line 148, ../scss/breakpoints/_768up.scss */
-  .widgettitle {
-    border-bottom: 2px solid #444;
-    margin-bottom: 0.75em;
-  }
-
-  /* line 153, ../scss/breakpoints/_768up.scss */
-  .widget {
-    padding: 0 10px;
-    margin: 2.2em 0;
-  }
-  /* line 158, ../scss/breakpoints/_768up.scss */
-  .widget ul li {
-    margin-bottom: 0.75em;
-    /* deep nesting */
-  }
-  /* line 166, ../scss/breakpoints/_768up.scss */
-  .widget ul li ul {
-    margin-top: 0.75em;
-    padding-left: 1em;
-  }
-
-  /* links widget */
-  /* meta widget */
-  /* pages widget */
-  /* recent-posts widget */
-  /* archives widget */
-  /* tag-cloud widget */
-  /* calendar widget */
-  /* category widget */
-  /* recent-comments widget */
-  /* search widget */
-  /* text widget */
-  /*********************
-  FOOTER STYLES
-  *********************/
-  /*
-  you'll probably need to do quite a bit
-  of overriding here if you styled them for
-  mobile. Make sure to double check these!
-  */
-  /* line 274, ../scss/breakpoints/_768up.scss */
-  .footer-links ul li {
-    /*
-    be careful with the depth of your menus.
-    it's very rare to have multi-depth menus in
-    the footer.
-    */
-  }
-
-  /* end .footer-links */
 }
 /*********************
 DESKTOP
