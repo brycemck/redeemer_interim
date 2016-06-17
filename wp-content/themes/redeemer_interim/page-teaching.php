@@ -53,6 +53,8 @@
 									<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 									<?php print_r(get_field('soundcloud_iframe', $loop->the_id())); echo "<p><br></p>"; ?>
 									<?php endwhile; wp_reset_query(); ?>
+									
+									<p class="body-content">To view more sermons, check out our <a target="_blank" href="http://soundcloud.com/redeemerpdx">SoundCloud</a> account.</p>
 								</section> <?php // end article section ?>
 
 								<?php comments_template(); ?>
