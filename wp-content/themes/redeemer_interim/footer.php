@@ -1,13 +1,13 @@
 			<div class="container-fluid">
 				<ul class="row social">
 					<li>
-						<a href="" target="_blank">
+						<a href="http://twitter.com/redeemerpdx" target="_blank">
 							<span class="icon icon-twitter"></span>
 						</a>
-						<a href="" target="_blank">
+						<a href="http://facebook.com/redeemerpdx" target="_blank">
 							<span class="icon icon-facebook"></span>
 						</a>
-						<a href="" target="_blank">
+						<a href="http://instagram.com/redeemerpdx" target="_blank">
 							<span class="icon icon-instagram"></span>
 						</a>
 						<!--<a href="{{site.meta['email-campaign']}}" target="_blank">
